@@ -47,7 +47,7 @@ Redmine::Plugin.register :redmine_issue_templates do
     version '1.2.1'
     author_url 'https://agileware.jp/'
     requires_redmine version_or_higher: '4.0'
-    url 'https://github.com/agileware-jp/redmine_issue_templates'
+    url 'https://github.com/Arean82/redmine_issue_templates'
 
     settings partial: 'settings/redmine_issue_templates',
              default: {
